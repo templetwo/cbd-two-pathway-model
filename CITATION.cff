@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Vasquez"
+    given-names: "Anthony J."
+    name-suffix: "Sr."
+    affiliation: "Delaware Valley University"
+    orcid: ""
+title: "Context-Dependent Pharmacology of Cannabidiol: A Two-Pathway Model Linking Mitochondrial Status to Divergent Cellular Outcomes"
+version: 1.0.0
+date-released: 2025-12-03
+url: "https://github.com/templetwo/cbd-two-pathway-model"
+repository-code: "https://github.com/templetwo/cbd-two-pathway-model"
+license: CC-BY-4.0
+type: article
+keywords:
+  - cannabidiol
+  - CBD
+  - VDAC1
+  - mitochondria
+  - context-dependent pharmacology
+  - neuroprotection
+  - apoptosis
+  - glioblastoma
+  - dose-response
+abstract: >-
+  Cannabidiol (CBD) exhibits paradoxical effects across cell types, 
+  inducing apoptosis in glioma and cancer models while conferring 
+  neuroprotection under excitotoxic stress. We propose that CBD acts 
+  as a mitochondrial stress test, with outcomes determined by 
+  pre-existing cellular metabolic status. A two-pathway framework 
+  explains the paradox: (1) at therapeutic concentrations (1-5 μM), 
+  CBD engages TRPV1, 5-HT1A, PPARγ, and GPR55, producing neuroprotective 
+  effects; (2) at higher concentrations (>10 μM), CBD binds VDAC1 on 
+  the outer mitochondrial membrane, triggering apoptosis in metabolically 
+  vulnerable cells. Literature analysis of 70+ papers yielded 90% 
+  concordance with model predictions.
+references:
+  - type: article
+    authors:
+      - family-names: "Rimmerman"
+        given-names: "N."
+    title: "Direct modulation of VDAC1 by cannabidiol"
+    journal: "Cell Death & Disease"
+    year: 2013
+    volume: 4
+    pages: "e949"
+  - type: article
+    authors:
+      - family-names: "Devinsky"
+        given-names: "O."
+    title: "Trial of cannabidiol for drug-resistant seizures in Dravet syndrome"
+    journal: "New England Journal of Medicine"
+    year: 2017
+    volume: 376
+    issue: 21
+    pages: "2011-2020"
