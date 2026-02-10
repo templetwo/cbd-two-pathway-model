@@ -7,8 +7,8 @@ authors:
     affiliation: "Delaware Valley University"
     orcid: ""
 title: "Context-Dependent Pharmacology of Cannabidiol: A Two-Pathway Model Linking Mitochondrial Status to Divergent Cellular Outcomes"
-version: 1.0.0
-date-released: 2025-12-03
+version: 1.1.0
+date-released: 2026-02-10
 url: "https://github.com/templetwo/cbd-two-pathway-model"
 repository-code: "https://github.com/templetwo/cbd-two-pathway-model"
 license: CC-BY-4.0
@@ -23,6 +23,9 @@ keywords:
   - apoptosis
   - glioblastoma
   - dose-response
+  - multi-model convergence
+  - IRIS Gate Evo
+  - Monte Carlo simulation
 abstract: >-
   Cannabidiol (CBD) exhibits paradoxical effects across cell types, 
   inducing apoptosis in glioma and cancer models while conferring 
@@ -34,7 +37,10 @@ abstract: >-
   effects; (2) at higher concentrations (>10 μM), CBD binds VDAC1 on 
   the outer mitochondrial membrane, triggering apoptosis in metabolically 
   vulnerable cells. Literature analysis of 70+ papers yielded 90% 
-  concordance with model predictions.
+  concordance with model predictions. Computational validation via
+  IRIS Gate Evo (five independent AI models) confirmed convergence
+  on the two-pathway mechanism with large predicted effect sizes
+  (Cohen's d 0.81-0.95).
 references:
   - type: article
     authors:
