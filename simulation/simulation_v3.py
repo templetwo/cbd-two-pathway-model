@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 import os
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+FIGURES_DIR = os.path.join(SCRIPT_DIR, '..', 'figures')
+
 # --- ENHANCED PARAMETERS (V3: Executioner ROS - Final Calibration) ---
 Kd_VDAC1 = 11.0 
 EC50_TRPV1 = 3.5
@@ -100,7 +103,7 @@ axes[-1, 0].set_xlabel('Time')
 axes[-1, 1].set_xlabel('Time')
 
 plt.tight_layout()
-plt.savefig('cbd_ros_executioner_v3.png')
+plt.savefig(os.path.join(FIGURES_DIR, 'cbd_ros_executioner_v3.png'), dpi=150, bbox_inches='tight')
 
 # --- NUMERICAL SUMMARY ---
 print("\n--- THERAPEUTIC INDEX ANALYSIS (40uM CBD) ---")

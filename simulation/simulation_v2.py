@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 import os
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+FIGURES_DIR = os.path.join(SCRIPT_DIR, '..', 'figures')
+
 # --- ENHANCED PARAMETERS (IRIS-Gate-Evo Validated) ---
 # Kd_VDAC1: Dissociation constant for CBD-VDAC1 binding (ref: Rimmerman 2013)
 Kd_VDAC1 = 11.0 
@@ -78,5 +81,5 @@ for i, (label, resilience) in enumerate(resilience_settings.items()):
 
 axes[-1].set_xlabel('Time (Arbitrary Units)')
 plt.tight_layout()
-plt.savefig('cbd_resilience_sweep.png')
-print("Refactored simulation complete. Generated 'cbd_resilience_sweep.png'")
+plt.savefig(os.path.join(FIGURES_DIR, 'cbd_resilience_sweep.png'), dpi=150, bbox_inches='tight')
+print("Simulation complete. Output: figures/cbd_resilience_sweep.png")

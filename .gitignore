@@ -14,15 +14,34 @@ Thumbs.db
 .idea/
 .vscode/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+*.egg
+
 # Temporary files
 *.tmp
 *.temp
 *.log
 
-# Build artifacts
+# LaTeX build artifacts
 *.aux
 *.out
 *.toc
 *.bbl
 *.blg
 *.synctex.gz
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+
+# Environment
+.env

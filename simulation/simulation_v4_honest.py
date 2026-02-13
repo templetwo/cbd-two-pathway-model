@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 import os
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+FIGURES_DIR = os.path.join(SCRIPT_DIR, '..', 'figures')
+
 # --- PARAMETERS: THE "UNIVERSAL HIT" MODEL (V4.1 HONEST CALIBRATION) ---
 # Purpose: Show that BOTH cell types take a hit, but Healthy survives via resilience.
 Kd_VDAC = 11.0 
@@ -93,7 +96,7 @@ for i, cell_type in enumerate(cell_types):
     axes[i, 1].legend(fontsize='x-small', ncol=2)
 
 plt.tight_layout()
-plt.savefig('v4_honest_resilience.png')
+plt.savefig(os.path.join(FIGURES_DIR, 'v4_honest_resilience.png'), dpi=150, bbox_inches='tight')
 
 print("\n--- HONEST MODEL RESULTS (40uM CBD) ---")
 for cell_type in cell_types:

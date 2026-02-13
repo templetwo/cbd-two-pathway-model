@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 import os
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+FIGURES_DIR = os.path.join(SCRIPT_DIR, '..', 'figures')
+
 # --- PARAMETERS (To be validated by IRIS-Gate-Evo) ---
 # Kd_VDAC1: Dissociation constant for CBD-VDAC1 binding (approx 11 uM)
 Kd_VDAC1 = 11.0 
@@ -64,5 +67,5 @@ plt.xlabel('Time (Arbitrary Units)')
 plt.ylabel('Mitochondrial Potential')
 plt.legend()
 plt.grid(True, alpha=0.3)
-plt.savefig('vdac1_blockade_simulation.png')
-print("Simulation complete. Check vdac1_blockade_simulation.png")
+plt.savefig(os.path.join(FIGURES_DIR, 'vdac1_blockade_simulation.png'), dpi=150, bbox_inches='tight')
+print("Simulation complete. Output: figures/vdac1_blockade_simulation.png")
