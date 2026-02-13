@@ -90,6 +90,9 @@ At 40 uM (supratherapeutic dose):
 **H3: Nutri-Pharmacological Rescue**
 > IF vulnerable cells are pre-treated with GSH precursors (e.g., N-acetylcysteine), THEN the CBD-induced death threshold shifts significantly to the right, demonstrating that toxicity is a metabolic state rather than a drug property.
 
+**H4: 7-OH-CBD Metabolite Contribution (Critical Unknown)**
+> IF 7-OH-CBD (primary CBD metabolite, 2-4x longer half-life) binds VDAC1 with Kd within 3x of parent CBD, THEN at steady-state daily dosing it will accumulate to concentrations representing >=20% of total VDAC-binding ligand pool, effectively extending the occupancy window beyond parent compound alone. This is the widest uncertainty band in the model. No published Kd exists for 7-OH-CBD at VDAC1. Testable by MST/SPR binding assay. (IRIS Gate Evo: TYPE 0, 4/5 models on accumulation; testability 5/10)
+
 ### Figure 5. Proposed Experiment: VDAC1 Neuroprotection Test
 
 The critical experiment that could validate or refute the central hypothesis. No published study has tested whether VDAC1 blockade during low-dose CBD eliminates neuroprotection.
@@ -106,11 +109,15 @@ The model was independently validated using the [IRIS Gate Evo](https://github.c
 
 | Metric | Result |
 |--------|--------|
-| S3 Convergence Gate | **PASSED** |
+| S3 Convergence Gate | **PASSED** (2 independent runs) |
+| Highest Cosine Score | **0.9024** (chronic dosing run) |
 | Theory Paradigm | **Bioenergetic Resilience** |
 | Critical Switch | GSH Scavenging Capacity |
-| Predicted Effect Sizes | Cohen's d 0.81--0.95 |
+| Predicted Effect Sizes | Cohen's d 0.73--1.35 |
 | Falsifiable Claim | VDAC1 blockade rescues vulnerable cells |
+| Cross-Run | First **INDEPENDENT REPLICATION** detected |
+
+For full claim-level validation mapping, see **[VALIDATION.md](VALIDATION.md)**.
 
 ---
 
@@ -119,6 +126,7 @@ The model was independently validated using the [IRIS Gate Evo](https://github.c
 ```
 cbd-two-pathway-model/
 ├── README.md
+├── VALIDATION.md                        # IRIS Gate Evo claim-level validation mapping
 ├── LICENSE                              # CC BY 4.0
 ├── CITATION.cff                         # Machine-readable citation metadata
 ├── CONTRIBUTING.md                      # Contribution guidelines
