@@ -6,8 +6,8 @@ authors:
     name-suffix: "Sr."
     affiliation: "Delaware Valley University"
 title: "Context-Dependent Pharmacology of Cannabidiol: A Two-Pathway Model Linking Mitochondrial Status to Divergent Cellular Outcomes"
-version: 1.1.0
-date-released: 2026-02-10
+version: 1.2.0
+date-released: 2026-02-13
 url: "https://github.com/templetwo/cbd-two-pathway-model"
 repository-code: "https://github.com/templetwo/cbd-two-pathway-model"
 license: CC-BY-4.0
