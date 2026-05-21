@@ -10,6 +10,18 @@
 
 ---
 
+## Citation and Companion Archive
+
+This work has been deposited on the Open Science Framework with a permanent DOI:
+
+> Vasquez, A. J., Sr. (2026). CBD's Paradox at the Mitochondrial Gate: A Multi-LLM Convergence Study of VDAC1 Pharmacology. Open Science Framework. https://doi.org/10.17605/OSF.IO/NUXHV
+
+This work is cited by the Gap 6 paper on spatial-partitioning pharmacology; see the companion archive at [github.com/templetwo/gap6-companion](https://github.com/templetwo/gap6-companion) for the citing paper and related work map.
+
+See [CITATION.cff](CITATION.cff) for machine-readable citation metadata.
+
+---
+
 ## Abstract
 
 Cannabidiol (CBD) exhibits paradoxical effects across cell types, inducing apoptosis in glioma and cancer models while conferring neuroprotection under excitotoxic stress. We propose that CBD acts as a **mitochondrial stress test**, with outcomes determined by pre-existing cellular metabolic status rather than molecular selectivity.
