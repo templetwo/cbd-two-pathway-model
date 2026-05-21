@@ -10,6 +10,11 @@ version: 1.2.0
 date-released: 2026-02-13
 url: "https://github.com/templetwo/cbd-two-pathway-model"
 repository-code: "https://github.com/templetwo/cbd-two-pathway-model"
+doi: "10.17605/OSF.IO/NUXHV"
+identifiers:
+  - type: doi
+    value: "10.17605/OSF.IO/NUXHV"
+    description: "Open Science Framework deposit"
 license: CC-BY-4.0
 type: article
 keywords:
